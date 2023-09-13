@@ -46,13 +46,13 @@ def get_response(msg):
             if tag == intent["tag"]:
                 return random.choice(intent['responses'])
 
-    return "I do not understand..."
+    return "Sorry 😣, I do not understand..."
 
 @app.route('/')
 def hello_world():
     return 'Hello, World!'
 
-@app.route('/chat', methods=['POST'])
+@app.route('/api/chat', methods=['POST'])
 def process_chat():
     try:
         # Get data from the request body as JSON
