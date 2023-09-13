@@ -30,6 +30,6 @@ the following command to test it in the console.
 $ (venv) python chat.py
 ```
 
- To get response through API
+ To get response through API run following command
  $ (venv) python app.py
 
