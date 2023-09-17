@@ -16,6 +16,37 @@
         "Hi there, what can I do for you?",
         "Hi there, how can I help?"
       ]
+    }, {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "Help",
+        "Pick me up",
+        "Back me up",
+        "Offer your assistance",
+        "Offer a helping out",
+        "Give me a hand with this",
+        "Pitch in",
+        "Offer your support",
+        "Support me",
+        "Come to my aid",
+        "Provide assistance",
+        "Come to my rescue",
+        "Aid me"
+      ],
+      "responses": [
+        "How may I assist you?",
+        "What can I do for you?",
+        "Is there anything I can do to help?",
+        "How can I help?",
+        "How may I be of service?",
+        "How can I support you?",
+        "What do you need assistance with?",
+        "How can I lend a hand?",
+        "How may I aid you?",
+        "Is there something you require?",
+        "What can I do to assist you today?"
+      ]
     },
     {
       "tag": "goodbye",

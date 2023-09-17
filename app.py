@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import random
 import json
 import torch
@@ -27,7 +28,7 @@ model.eval()
 
 bot_name = "Sam"
 app = Flask(__name__)
-
+CORS(app)
 def get_response(msg):
     sentence = tokenize(msg)
     X = bag_of_words(sentence, all_words)
